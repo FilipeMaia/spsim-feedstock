@@ -1,6 +1,12 @@
 github:                         
   user_or_org: FilipeMaia
 
+# This channels defenition is just used for the README
+# The real channels are defined in conda_build_config.yaml
+channels:
+  targets:
+    - [filipemaia, main]
+    
 provider:
   linux: azure
   osx: azure
