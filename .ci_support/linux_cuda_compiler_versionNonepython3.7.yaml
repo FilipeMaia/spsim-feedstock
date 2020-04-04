@@ -3,7 +3,9 @@ c_compiler:
 c_compiler_version:
 - '7'
 channel_sources:
-- conda-forge,defaults
+- conda-forge
+- defaults
+- filipemaia
 channel_targets:
 - filipemaia main
 cuda_compiler:
