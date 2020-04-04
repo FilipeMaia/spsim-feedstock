@@ -1,11 +1,21 @@
 c_compiler:
-- vs2015
+- gcc
+c_compiler_version:
+- '7'
 channel_sources:
 - filipemaia,conda-forge,defaults
 channel_targets:
 - filipemaia main
+cuda_compiler:
+- nvcc
+cuda_compiler_version:
+- None
 cxx_compiler:
-- vs2015
+- gxx
+cxx_compiler_version:
+- '7'
+docker_image:
+- condaforge/linux-anvil-comp7
 fftw:
 - '3'
 gsl:
@@ -23,6 +33,9 @@ pin_run_as_build:
   zlib:
     max_pin: x.x
 python:
-- '3.7'
+- '3.6'
+zip_keys:
+- - cuda_compiler_version
+  - docker_image
 zlib:
 - '1.2'
