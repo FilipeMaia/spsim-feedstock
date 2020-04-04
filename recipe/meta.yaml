@@ -47,7 +47,7 @@ requirements:
     - zlib
     - numpy
     - libspimage 
-    - nfft
+    - nfft # [not win]
 
   run:
     - python
@@ -57,7 +57,7 @@ requirements:
     - zlib
     - numpy
     - libspimage 
-    - nfft
+    - nfft # [not win]
 
 test:
   imports:
