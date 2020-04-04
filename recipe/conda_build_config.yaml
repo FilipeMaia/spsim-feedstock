@@ -8,6 +8,4 @@ channel_targets:
   - filipemaia main
 
 channel_sources:
-  - filipemaia
-  - conda-forge
-  - defaults
+  - filipemaia,conda-forge,defaults
