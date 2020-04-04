@@ -26,6 +26,7 @@ build:
 
   # We'll start simple
   skip: True  # [win or osx]
+  skip: True  # [py != 37 or cuda_compiler_version != "None"]
 
 requirements:  
   build:
@@ -64,7 +65,7 @@ test:
 about:
   home: https://github.com/FXIhub/spsim
   license: GPL
-  license_file: Copyright
+  license_file: COPYRIGHT
   summary: X-ray single particle diffraction simulator
 
 extra:
