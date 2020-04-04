@@ -26,7 +26,8 @@ build:
 
   # We'll start simple
   skip: True  # [win or osx]
-  skip: True  # [py != 37 or cuda_compiler_version != "None"]
+  skip: True  # [py != 37]
+  #  skip: True  # [py != 37 or cuda_compiler_version != "None"]
 
 requirements:  
   build:
