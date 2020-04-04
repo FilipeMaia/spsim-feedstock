@@ -1,1 +1,17 @@
-{}
+github:                         
+  user_or_org: FilipeMaia
+channels:
+  # sources selects the channels to pull packages from, in order.
+  sources:
+    - conda-forge
+    - defaults
+    - filipemaia
+  targets:
+    - [filipemaia, main]
+
+provider:
+  linux: azure
+  osx: azure
+  win: azure
+
+max_py_ver: '38'
