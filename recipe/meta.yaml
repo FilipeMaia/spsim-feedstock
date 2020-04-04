@@ -28,7 +28,8 @@ build:
   skip: True  # [win or osx]
   skip: True  # [py != 37]
   skip: True  # [cuda_compiler_version != "None"]
-  
+
+requirements:  
   build:
     - git
     - cmake
